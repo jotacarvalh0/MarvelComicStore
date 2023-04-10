@@ -195,13 +195,19 @@ header{
     .comic{
         display: flex;
         margin-top: 15px;
+        justify-content: space-between;
+        flex-wrap: wrap;
 
         .titlecomic{
             display: flex;
+            justify-content: center;
+            align-items: center;
             flex-direction: column;
-            margin: 0 25px 0 0;
             img{
                 max-width: 100%;
+                width: 233.2px;
+                height: 358.56px;
+
             }
             a{
                 text-decoration: none;
@@ -216,7 +222,7 @@ header{
 }   
 
     footer{
-        margin: 20px 0px 0px 0px;
+        margin: 50px 0px 0px 0px;
         width: 100%;
         height: 200px;
         background-color: $color-blue;
